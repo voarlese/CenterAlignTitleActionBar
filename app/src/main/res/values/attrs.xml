@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitleCenterAlignActionBar">
+        <attr name="left_component" format="string"/>
+        <attr name="right_component" format="string"/>
+        <attr name="my_title" format="reference"/>
+        <attr name="title_icon_start" format="reference"/>
+        <attr name="title_icon_end" format="reference"/>
+    </declare-styleable>
+    <!-- 末行对齐方式 -->
+    <declare-styleable name="AlignTextView">
+        <attr name="align" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="AlignTextView_font" format="string" />
+    </declare-styleable>
+    
+    <declare-styleable name="KeTextView">
+        <attr name="KeTextView_font" format="string" />
+    </declare-styleable>
+    
+    <declare-styleable name="KeEditText">
+        <attr name="KeEditText_font" format="string" />
+    </declare-styleable>
+    
+    <declare-styleable name="TextViewX">
+        <attr name="TextViewX_font" format="string" />
+        <attr name="TextViewX_src_view" format="reference" />
+        <attr name="TextViewX_src_width" format="integer" />
+        <attr name="TextViewX_src_height" format="integer" />
+        <attr name="TextViewX_x" format="integer" />
+        <attr name="TextViewX_y" format="integer" />
+        <attr name="TextViewX_width" format="integer" />
+        <attr name="TextViewX_tar_height" format="integer" />
+    </declare-styleable>
+    
+    <declare-styleable name="ImageButtonX">
+        <attr name="maintain" format="boolean" />
+        <attr name="ratioEnable" format="boolean" />
+        <attr name="widthRatio" format="string" />
+        <attr name="heightRatio" format="string" />
+        <attr name="heightFirst" format="boolean" />
+        <attr name="posEnable" format="boolean" />
+        <attr name="yRatio" format="string" />
+    </declare-styleable>
+    
+    <declare-styleable name="ClearEditText">
+        <!-- 清除按钮的图标 -->
+        <attr name="iconClear" format="reference" />
+        <attr name="drawableStart" format="reference" />
+    
+    </declare-styleable>
+    
+    <declare-styleable name="PixelLayout">
+        <attr name="src_view" format="reference" />
+        <attr name="src_width" format="integer" />
+        <attr name="src_height" format="integer" />
+        <attr name="x" format="integer" />
+        <attr name="y" format="integer" />
+        <attr name="width" format="integer" />
+        <attr name="tar_height" format="integer" />
+        <attr name="autoSize" format="boolean" />
+        <attr name="autoSizeLine" format="integer" />
+        <attr name="pixelTextHeight" format="integer" />
+    </declare-styleable>
+    
+    <declare-styleable name="CircleProgressBar">
+        <attr name="min" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress" format="integer" />
+        <attr name="progressbarBgColor" format="color" />
+        <attr name="progressbarColor" format="color" />
+        <attr name="progressBarThickness" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="RoundLinearLayout">
+        <attr name="RoundRelativeLayout_roundLayoutRadius" format="integer" />
+    </declare-styleable>
+    
+    <declare-styleable name="RatioLinearLayout">
+        <attr name="RatioLinearLayout_ratio" format="float" />
+        <attr name="RatioLinearLayout_src" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="CustomBtn">
+        <attr name="CustomBtn_img_padding" format="dimension" />
+        <attr name="CustomBtn_imgSrc" format="reference" />
+        <attr name="CustomBtn_imgRightSrc" format="reference" />
+        <attr name="CustomBtn_text" format="string" />
+        <attr name="CustomBtn_letterSpacing" format="float" />
+    </declare-styleable>
+    
+    <declare-styleable name="CustomTabLayout">
+        <attr name="CustomTabLayout_customView" format="reference"/>
+        <attr name="CustomTabLayout_customView_selected_textColor" format="color"/>
+        <attr name="CustomTabLayout_customView_default_textColor" format="color"/>
+        <attr name="CustomTabLayout_customView_selected_textSize" format="dimension"/>
+        <attr name="CustomTabLayout_customView_default_textSize" format="dimension"/>
+        <attr name="CustomTabLayout_customView_show_icon" format="boolean"/>
+
+    </declare-styleable>
+    
+    <declare-styleable name="ComputeTextView">
+        <attr name="ComputeTextView_target" format="reference"/>
+        <attr name="ComputeTextView_length" format="string"/>
+    </declare-styleable>
+</resources>
