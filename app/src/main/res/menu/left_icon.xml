@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/icBack"
+        android:title="back"
+        android:icon="@drawable/ic_keyboard_arrow_left_black_24dp"/>
+    <item
+        android:id="@+id/icClose"
+        android:title="close"
+        android:icon="@drawable/ic_close_black_24dp"/>
+    <item android:id="@+id/icUndo"
+        android:title="undo"
+        android:icon="@drawable/ic_undo_black_24dp"/>
+</menu>

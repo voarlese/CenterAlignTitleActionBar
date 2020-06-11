@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tw.com.voarlese.centeraligntitleactionbar.TitleCenterAlignActionBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:paddingStart="11dp"
+    android:paddingEnd="11dp"
+    android:background="@color/colorPrimary"
+    app:left_component="btnBack,btnClose,btnUndo"
+    app:right_component="btnHoriz,btnSave,btnSearch,btnShare"
+    app:my_title="@id/title">
+    <!--title-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:letterSpacing="-0.02"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:drawableEnd="@drawable/selector_dropdown"
+        tool:text="我是TITLE" />
+    <!--left-->
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_keyboard_arrow_left_white_24dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_close_white_24dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/btnUndo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_undo_white_24dp"
+        android:visibility="gone" />
+
+    <!--right-->
+    <ImageView
+        android:id="@+id/btnHoriz"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_more_horiz_white_24dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_save_white_24dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_search_white_24dp"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_share_white_24dp"
+        android:visibility="gone" />
+</tw.com.voarlese.centeraligntitleactionbar.TitleCenterAlignActionBar>
