@@ -1,6 +1,8 @@
 *.iml
 .gradle
 /local.properties
+/.idea/markdown-navigator-enh.xml
+/.idea/markdown-navigator.xml
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
